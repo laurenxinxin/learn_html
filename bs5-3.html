@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 101 Template</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		aside { background-color: #E8E8E7; }		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- first row - 3 equal columns -->
+		<h1>Basic Grid System</h1>
+		<section class="row">
+			<aside class="col-md-4"><h2>Column 1</h2></aside>
+			<article class="col-md-4"><h2>Column 2</h2></article>
+			<aside class="col-md-4"><h2>Column 3</h2></aside>
+		</section>
+		<section class="row">
+			<aside class="col-md-2"><h2>Column 1</h2></aside>
+			<article class="col-md-8"><h2>Column 2</h2></article>
+			<aside class="col-md-2"><h2>Column 3</h2></aside>
+		</section>
+		<section class="row">
+			<aside class="col-xs-12 col-sm-6 col-md-4"><h2>Column Dynamics</h2></aside>
+		</section>
+		<!-- code 5-6 -->
+		<div class="row">
+			<div class="col-xs-6 col-sm-6">This is a super long column that might not load correctly in all browsers</div>
+			<div class="col-xs-6 col-sm-6">short column</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="col-xs-6 col-sm-6">short column</div>
+			<div class="col-xs-6 col-sm-6">short column</div>
+		</div>
+		<!-- code 5-7 -->
+		<div class="row">
+			<div class="col-md-8 col-md-push-4">The first column is eight wide, pushed over four.</div>
+			<div class="col-md-4 col-md-pull-8">The second column is four wide, pulled back eight.</div>
+		</div>
+		<!-- code 5-8 -->
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-3 col-lg-offset-1">Column One</div>
+			<div class="col-sm-6 col-md-4 col-lg-3 col-lg-offset-1">Column Two</div>
+			<div class="col-sm-6 col-md-4 col-lg-3 col-lg-offset-1">Column Three</div>
+		</div>
+	</div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<script src="jquery/3.2.1/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
