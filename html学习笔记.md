@@ -8,8 +8,28 @@
 <h1>This is a heading</h1>
 <p>This is a paragraph of text</p>
 ```
-
 ## 基本的HTML页面
+
+### 最简单的HTML页面
+
+``` html
+<!DOCTYPE html>
+hello world!!!
+```
+### 一个HTML页面模板
+
+``` html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        This is the body of the document.
+    </body>
+</html>
+```
+
 ## 列表 LISTS
 ## 表格 TABLES
 ## FORMS
