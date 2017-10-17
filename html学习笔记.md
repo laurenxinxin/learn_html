@@ -30,6 +30,22 @@ hello world!!!
 </html>
 ```
 
+# 结构性的文本
+
+``` html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>This is a top level heading</h1>
+        <h2>This is a second level heading</h2>
+        <h3>This is a third level heading</h3>
+    </body>
+</html>
+```
+
 ## 列表 LISTS
 ## 表格 TABLES
 ## FORMS
