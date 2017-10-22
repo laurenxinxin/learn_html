@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Zhao Xiaoqi -- Enterprise Architect -- <twitter>
+
+    Xiaoqi.com(京ICP备17027001号)
 
 # THANKS
 
-    <name>
+    Zhao Xiaoqi
 
 # TECHNOLOGY COLOPHON
 
